@@ -1,0 +1,19 @@
+{
+  "app_name": "factory-sample-services (Backend)",
+  "install_command": "go mod download",
+  "build_command": "go build ./...",
+  "test_command": "go test ./...",
+  "start_command": "go run ./cmd/server",
+  "port": 8080,
+  "health_check_path": "/health",
+  "protected_paths": [
+    "MISSION.md",
+    "AGENTS.md",
+    "architecture.md",
+    "conventions.md",
+    "design.md",
+    "harness/**",
+    "go.mod",
+    "go.sum"
+  ]
+}
