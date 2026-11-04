@@ -1,0 +1,10 @@
+# Built binaries
+/server
+/bin/
+*.exe
+*.test
+*.out
+coverage.*
+
+# Local environment
+.env
